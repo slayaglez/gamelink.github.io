@@ -1,1 +1,13 @@
-title: "gamelink"
+title: "GameLink"
+description: "Guía de despliegue Neo4j para GameLink"
+url: "https://slayaglez.github.io"
+baseurl: "/gamelink"
+
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
