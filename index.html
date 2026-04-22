@@ -23,12 +23,18 @@
     --node-color: #00c7b2;
     --rel-color: #ff6b35;
     --font-mono: 'Space Mono', monospace;
-    --font-sans: 'Syne', sans-serif;
+    --font-sans: 'Aileron' , sans-serif;
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   html { scroll-behavior: smooth; }
+
+  /* -- FUENTE --*/
+  @font-face {
+  font-family: Aileron; 
+  src: url(/font/Aileron/Aileron-Bold.otf);
+  }
 
   body {
     background: var(--bg);
@@ -516,8 +522,8 @@
 <canvas id="graph-bg"></canvas>
 
 <header>
-  <div class="header-badge">Neo4j · Docker · Graph DB</div>
-  <h1>GameLink<br><span class="highlight">Neo4j</span> Deploy</h1>
+  <div class="header-badge">Neo4j · Docker · Cypher</div>
+  <h1>Despliegue de <br><span class="highlight">GameLink</span> en Neo4J</h1>
   <p class="subtitle">// guía de despliegue paso a paso</p>
 </header>
 
